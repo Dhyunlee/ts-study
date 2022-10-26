@@ -1,0 +1,22 @@
+#4 함수 
+
+함수 타입 정의 
+→ 함수의 타입은 파라미터를 정의한 부분 옆에 정의한다.
+function funcName(a: type, b: type): type {
+  retrun 연산된_결과값;
+}
+
+void 타입
+→ 어떤 값(타입)도 리턴하지 않는 경우 
+  void 타입으로 정의한다.  
+
+function funcName(a: type, b: type): void {
+  console.log(a + a);
+}
+
+매개변수: 옵셔널 지정
+→ 인터페이스처럼 옵셔널 타입을 매개변수에 지정할 수 있다.
+
+
+
+

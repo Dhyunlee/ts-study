@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "jsRules": [],
+    "rules": {
+        "semicolon": true,
+        "no-console": false,
+        "no-unnecessary-initializer": false,
+        "comment-format": false,
+        "max-classes-per-file": [
+            "error",
+            {
+                "ignoreExpressions": true,
+                "max": 5
+            }
+        ]
+    },
+    "rulesDirectory": []
+}
